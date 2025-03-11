@@ -21,7 +21,8 @@ export function Parcel({
 
   // Use API key from props or from context
   const apiKey = propApiKey || contextValue?.apiKey;
-  const apiBaseUrl = contextValue?.apiBaseUrl || "http://127.0.0.1:3211";
+  const apiBaseUrl =
+    contextValue?.apiBaseUrl || "https://prestigious-rat-995.convex.site";
 
   useEffect(() => {
     if (!parcelKey || !apiKey) return;

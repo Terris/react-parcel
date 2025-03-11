@@ -17,7 +17,7 @@ interface ParcelProviderProps {
 
 export function ParcelProvider({
   apiKey,
-  apiBaseUrl = "http://127.0.0.1:3211",
+  apiBaseUrl = "https://prestigious-rat-995.convex.site",
   children,
 }: ParcelProviderProps) {
   return (
