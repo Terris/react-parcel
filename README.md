@@ -5,9 +5,9 @@ React components for fetching and displaying Parcels.
 ## Installation
 
 ```bash
-npm install @lumberyard/@lumberyard/react-parcel
+npm install @terrisjameskremer/react-parcel
 # or
-yarn add @lumberyard/@lumberyard/react-parcel
+yarn add @terrisjameskremer/react-parcel
 ```
 
 This package uses [DOMPurify](https://github.com/cure53/DOMPurify) to sanitize HTML content and prevent XSS attacks.
@@ -17,7 +17,7 @@ This package uses [DOMPurify](https://github.com/cure53/DOMPurify) to sanitize H
 ### Basic Usage
 
 ```jsx
-import { Parcel, ParcelReader } from "@lumberyard/react-parcel";
+import { Parcel, ParcelReader } from "@terrisjameskremer/react-parcel";
 
 function MyComponent() {
   return (
@@ -39,7 +39,11 @@ function MyComponent() {
 You can also use the `ParcelProvider` to provide the API key to all Parcel components in your application:
 
 ```jsx
-import { ParcelProvider, Parcel, ParcelReader } from "@lumberyard/react-parcel";
+import {
+  ParcelProvider,
+  Parcel,
+  ParcelReader,
+} from "@terrisjameskremer/react-parcel";
 
 function App() {
   return (
@@ -73,7 +77,7 @@ import {
   Parcel,
   ParcelReader,
   defaultSanitizerConfig,
-} from "@lumberyard/react-parcel";
+} from "@terrisjameskremer/react-parcel";
 
 function ParcelContentRenderer() {
   return (
@@ -100,7 +104,7 @@ import {
   Parcel,
   ParcelProvider,
   ParcelReader,
-} from "@lumberyard/react-parcel/next";
+} from "@terrisjameskremer/react-parcel/next";
 ```
 
 This ensures that the "use client" directive is properly applied to components used in Next.js server components.

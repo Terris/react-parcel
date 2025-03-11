@@ -1,5 +1,5 @@
 {
-  "name": "@lumberyard/react-parcel",
+  "name": "@terrisjameskremer/react-parcel",
   "version": "1.0.8",
   "description": "React components for displaying Parcels",
   "main": "dist/cjs/index.js",
