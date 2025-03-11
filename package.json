@@ -1,6 +1,6 @@
 {
   "name": "@terrisjameskremer/react-parcel",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "React components for displaying Parcels",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
