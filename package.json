@@ -1,6 +1,6 @@
 {
-  "name": "react-parcel",
-  "version": "0.1.0",
+  "name": "@lumberyard/react-parcel",
+  "version": "1.0.8",
   "description": "React components for displaying Parcels",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
