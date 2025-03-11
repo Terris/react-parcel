@@ -1,0 +1,1 @@
+export { defaultSanitizerConfig } from "./defaultSanitizerConfig";
